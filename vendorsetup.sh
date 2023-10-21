@@ -4,12 +4,12 @@ echo 'Starting Cloning repos for devon'
 echo 'Cloning Kernel tree [1/7]'
 
 rm -rf kernel/motorola/sm6225
-git clone https://github.com/Sm680-Development/kernel_motorola_sm6225 kernel/motorola/sm6225
+git clone https://github.com/ProjectElixir-Devices/kernel_motorola_sm6225 kernel/motorola/sm6225
 
 echo 'Cloning Common Tree [2/7]'
 
 rm -rf device/motorola/sm6225-common
-git clone https://github.com/Sm680-Development/device_motorola_sm6225-common device/motorola/sm6225-common
+git clone https://github.com/ProjectElixir-Devices/device_motorola_sm6225-common device/motorola/sm6225-common
 
 echo 'Cloning Device Tree [3/7]'
 
@@ -19,9 +19,9 @@ git clone https://github.com/ProjectElixir-Devices/device_motorola_devon device/
 echo 'Cloning Vendor Trees [4/7]'
 
 rm -rf vendor/motorola/sm6225-common
-git clone https://github.com/Sm680-Development/vendor_motorola_sm6225-common vendor/motorola/sm6225-common
+git clone https://github.com/ProjectElixir-Devices/vendor_motorola_sm6225-common vendor/motorola/sm6225-common
 rm -rf vendor/motorola/devon
-git clone https://github.com/Sm680-Development/vendor_motorola_devon vendor/motorola/devon
+git clone https://github.com/ProjectElixir-Devices/vendor_motorola_devon vendor/motorola/devon
 
 echo 'Cloning Motorola´s common stuffs [5/7]'
 
