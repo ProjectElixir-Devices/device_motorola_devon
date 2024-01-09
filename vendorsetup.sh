@@ -29,3 +29,4 @@ rm -rf hardware/motorola
 git clone https://github.com/Project-Elixir/hardware_motorola hardware/motorola
 rm -rf system/qcom
 git clone https://github.com/Project-Elixir/system_qcom system/qcom
+rm -rf hardware/qcom-caf/bengal/gps
